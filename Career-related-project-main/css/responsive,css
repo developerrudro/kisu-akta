@@ -1,0 +1,45 @@
+media (max-width: 768px) {
+  #career-card,
+  .image1 {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .career-card-container h1 {
+    font-size: 36px;
+    padding: 0 10px;
+  }
+
+  #reason-card {
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .developer-story-video iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  #target {
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .target-box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #btn {
+    width: 100%;
+  }
+}

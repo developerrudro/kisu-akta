@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body{
+  background-image: linear-gradient(#e8f9ff, #ffffff);
+  line-height: 1.6;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+ padding: 12px 24px;
+  background-color: white;
+  align-items: center;
+ ;
+ box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+
+}
+.header h2{
+  font-size: 25px;
+  font-weight: bold;
+}
+.header span{
+  color :#FFA500;
+}
+#btn{
+  padding: 8px 16px;
+  background-image: linear-gradient(#FFA500,#FFD447);
+  border-radius: 12px;
+  border-style: none;
+  cursor: pointer;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  transition: 0.3 ease;
+}
+
+#btn:hover{
+  background:linear-gradient(
+    125deg,#FFB700,#ffe678
+  );
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+}
+
+
+
+
+
+
+
+#career-card{
+  margin: 80px auto;
+  text-align: center;
+  border: 2px solid #E6EDF9;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 30px;
+  width: 90%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+
+}
+.contianer-text{
+  font-size:16px ;
+  color:#0D1321 ;
+  line-height: 26px;
+
+}
+.career-card-container h1{
+  font-weight: bold;
+  font-size: 36px;
+  text-shadow: 0px 1px 1px #0D1321;
+}
+.image1{
+  max-width: 100%;
+  height: auto;
+}
+#developer-story{
+  text-align: center;
+  justify-content: center;
+  padding:40px 20px;
+  margin: 40px auto;
+}
+#reason-card{
+  border: 2px solid #E6EDF9;
+  align-items:center ;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 30px;
+  margin: 100px auto 120px auto;
+  padding: 20px;
+  width: 90%;
+  
+}
+
+
+
+
+
+.reason-card-contianer{
+  text-align: center;
+  flex: 1;
+
+}
+#target{
+  display: flex;
+  justify-content: 
+  space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  
+}
+.target-box{
+  border: 2px solid #E6EDF9 ;
+  padding: 30px 100px;
+ background: linear-gradient(90deg,rgba(159, 221, 245, 1) 0%, rgba(182, 209, 194, 1) 100%, rgba(237, 221, 83, 1) 100%);
+ border-radius: 15px;
+ text-align: center;
+}
+.target-box img{
+  max-width: 100px;
+  height: auto;
+}
+
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+ 
+  margin:12px 24px ;
+  background-color: rgb(238, 231, 231);
+  align-items: center;
+ padding: 2px 4px;
+flex-wrap: wrap;
+}
+footer img{
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+footer img:hover{
+  transform: scale(1.1);
+}
+
+.footer-text{
+  font-size:16px ;
+  color:#0D1321 ;
+  line-height: 26px;
+
+}
+
+
+
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding-top: 30.25%; /* 16:9 Aspect Ratio */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 16px;
